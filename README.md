@@ -69,3 +69,37 @@ Index  → D
 Middle → E
 Ring   → F
 Pinky  → G
+
+### PART 2 — Paste immediately after that
+
+```markdown
+## 🔄 Working Principle
+
+### 1. Sensor Calibration
+
+The system first determines the sensor values corresponding to different finger positions.
+
+The calibration values are used to improve finger bend detection.
+
+### 2. Finger Detection
+
+The ESP32 continuously reads the five flex sensors.
+
+When a finger bends beyond the calibrated threshold, the corresponding piano note is detected.
+
+### 3. Wrist Orientation Detection
+
+The MPU6050 measures wrist movement.
+
+The detected wrist orientation determines the selected octave.
+
+### 4. Note Generation
+
+The ESP32 maps each detected finger to its corresponding musical note.
+
+```text
+Thumb  → C
+Index  → D
+Middle → E
+Ring   → F
+Pinky  → G
