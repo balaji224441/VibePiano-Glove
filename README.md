@@ -117,3 +117,44 @@ This allows the same finger gestures to generate notes in different octaves.
                             │
                             ▼
                      🎵 Piano Audio
+---
+
+## 📷 Prototype & Results
+
+### Hardware Prototype
+
+The VibePiano Glove prototype consists of five flex sensors mounted on the fingers, an ESP32 controller, MPU6050 and supporting circuitry.
+
+![Glove Hardware Prototype](glove_hardware_prototype.png)
+
+---
+
+### Prototype with Live Output
+
+The prototype is shown operating with the computer displaying the real-time system output.
+
+![Prototype with Live Output](prototype_with_live_output.png)
+
+---
+
+### Flex Sensor Calibration
+
+The serial monitor displays the calibration process for individual fingers, including straight and bent sensor values, bend range, press threshold and release threshold.
+
+![Flex Sensor Calibration](flex_sensor_calibration.png)
+
+---
+
+### Note Detection Output
+
+The serial output demonstrates real-time finger detection, note generation and octave information.
+
+![Note Detection Output](note_detection_output.png)
+
+---
+
+### System Serial Output
+
+The serial monitor displays the detected notes, finger information, octave selection and system status during operation.
+
+![System Serial Output](system_serial_output.png)
